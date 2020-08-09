@@ -73,9 +73,23 @@ Hyperparameters tuning was also done for all the algorithms to select the most a
 <a name="notebook"></a>
 # Running the notebook
 
-The project code with all the ML process steps can be found in the notebook [here](notebooks/sparkify.ipynb)
+The project code with all the ML process steps can be found in the notebooks [here](notebooks)
 
-You can run the notebook by performing the following steps:
+The different steps of the workflow are implemented in three notebooks
+
+	├── 01_data_cleaning.html : Data cleaning notebook in HTML format
+	├── 01_data_cleaning.ipynb: Data cleaning notebook
+	├── 02_data_exploration.html: Data exploration notebook in HTML format
+	├── 02_data_exploration.ipynb: Data exploration notebook
+	├── 03_features_eng_and_modeling.html : Features engineering and models training and evaluation exported notebook 
+	├── 03_features_eng_and_modeling.ipynb:  Features engineering and models training and evaluation notebook
+	├── images
+	│   ├── eda.png
+	│   └── model_workflow.png
+	└── utils.py : helper functions module
+
+You can run the notebooks by performing the following steps:
+
 - Create a `Python 3.6` conda virtual environment
 
     `conda create --name py36 python=3.6`
@@ -89,7 +103,8 @@ You can run the notebook by performing the following steps:
     `unzip data/mini_sparkify_event_data.json.zip`
 - run `jupyter lab` or `jupyter notebook`
 
- You can also display the notebook content and its outputs using [nbviewer](https://nbviewer.jupyter.org/github/slitayem/sparkify_dsnd/blob/master/notebooks/sparkify.ipynb). Also an html format of the notebook can be viewed [here](https://nbviewer.jupyter.org/github/slitayem/sparkify_dsnd/blob/master/notebooks/sparkify.html).
+
+ You can also display the notebook content and its outputs using [nbviewer](https://nbviewer.jupyter.org). Also an html format of the notebook can be viewed [here](https://nbviewer.jupyter.org/).
 
 ## Author
 
